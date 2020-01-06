@@ -30,6 +30,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
     func applicationDidBecomeActive(_ application: UIApplication) {
+        /*
         let urlStr = "http://47.244.241.125:9010/app/check/update?version=7&app_id=1493375397&sign=4ba6863bcefc7c8c04f4369c3f7ca972"
         Alamofire.request(urlStr).responseJSON { (response) in
             switch response.result {
@@ -49,7 +50,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                 print("error:\(error)")
                 break
             }
-        }
+        }*/
+        
     }
 
     func applicationWillTerminate(_ application: UIApplication) {
