@@ -1,18 +1,3 @@
-//
-//  GameElements.swift
-//  FlyingPenguin
-//
-//  Copyright © 2018 iFiero. All rights reserved.
-//
-/* 建立精灵:
- *
- * 方法一：Entity+Component
- * 方法二：新建class 方便代码二次复用; CoinSprite
- * 方法三：extension GameScene  func createCoinSprite() -> SKSpriteNode {//code};
- *
- * (此处为方法三)
- */
-
 
 import SpriteKit
 
